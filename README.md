@@ -8,12 +8,12 @@ This lib can validate string, int, array, boolean, and DateTime.
 ###IntegerValidator
 The IntegerValidator class provide some method for check integer in different case.
 
-* equal : Check if two integer are equal
-* superior : Check if an integer is higher than an other.
-* inferior : Check if an integer is lower than an other.
-* between : Check if an integer is between two integer.
-* negative : Check if an integer is negative.
-* positive : Check if an integer is positive.
+* equal : Return true if two Integers are equals.
+* superior : Return true if the first integer in superior than the second.
+* inferior : Return true if the first integer in inferior than the second.
+* between : Return true if the variable is between two integers.
+* positive : Return true if the Integer is superior than 0.
+* negative : Return true if the Integer is inferior than 0.
 
 ####Exemple
 ```php
@@ -61,11 +61,11 @@ echo OKLM\Validator\BooleanValidator::isTrue($boolean);
 ###ArrayValidator
 The ArrayValidator class provide some method for check array in different case.
 
-* isEmpty : Check if a boolean is true
-* compare : Compare an array's length in diffirente case (<, >, <=, =>, ==)
-* numberElementsBetween : Compare if an array's length is between two integer (lentgh)
-* keyExist : Check if an key exists in a specific array
-* valueExist : Check if an value exists in a specific array
+* isEmpty : Return true if the array is empty.
+* comparator : Compare the array length (<,>,<=,>=,=).
+* elementsBetween : Return true if the array lenght is between two integers.
+* keyExists : Return true if the searched key is in the array.
+* valueExists : Return true if the searched value is in the array.
 
 ####Exemple
 ```php
@@ -80,12 +80,12 @@ echo OKLM\Validator\ArrayValidator::compare($array, OKLM\Validator\ArrayValidato
 ###DateValidator
 The DateValidator class provide some method for check array in different case.
 
-* isMajor : Check if the date is major (over 18 years)
-* isPassed : Check if the date is passed
-* isFuture : Check if the date is in the futur
-* isYear : Check if the date's year correspond to a specific year
-* isMonth : Check if the date's month correspond to a specific month
-* isDay : Check if the date's day correspond to a specific day
+* isMajor : Return true if the date in parameter has over 18 years old.
+* isPassed : Return true if the date in parameter is passed of the current date time.
+* isFuture : Return true if the date in parameter is not passed yet.
+* isYear : Return true if the date in parameter is in the year in second parameter.
+* isMonth : Return true if the date in parameter is in the month in second parameter.
+* isDay : Return true if the date in parameter is in the day in second parameter.
 
 ####Exemple
 ```php
