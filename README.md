@@ -1,5 +1,8 @@
 #Validator
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Sinaruse/Paillard_Antoine_A3_GR2_Validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Sinaruse/Paillard_Antoine_A3_GR2_Validator/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Sinaruse/Paillard_Antoine_A3_GR2_Validator/badges/build.png?b=master)](https://scrutinizer-ci.com/g/Sinaruse/Paillard_Antoine_A3_GR2_Validator/build-status/master)
+[![Code Coverage](https://scrutinizer-ci.com/g/Sinaruse/Paillard_Antoine_A3_GR2_Validator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Sinaruse/Paillard_Antoine_A3_GR2_Validator/?branch=master)
 
 This lib can validate string, int, array, boolean, and DateTime.
 
